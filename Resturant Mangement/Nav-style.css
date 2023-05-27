@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-style: sans-serif;
+}
+
+.navbar{
+    background-image: linear-gradient(rgba(15, 23, 43,0.9),rgba(15, 23, 43,0.9)), url(img/bg-hero.jpg);
+     
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.nav-item a{
+    color: #fefefe;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: 'Unna', serif;
+    font-size: 18px;
+}
+
+
+
+.navbar-nav li{
+    padding: 0px 10px;
+}
+
+.navbar-nav li:hover {
+    background-color: rgb(255, 196, 0);
+    border-radius: 30px;
+}
+
+.navbar-nav li:hover a{
+    color: black;
+}
+
+.navbar-nav a:hover{
+    color: rgb(12, 12, 12);
+}
+
+.navbar-brand img{
+    margin-left: 50px;
+    height: 40px;
+    width: 70px;
+}
+
+.navbar-nav button{
+    color: rgb(255, 196, 0);
+    font-size: 30px;
+}
+
+.navbar-nav button:hover{
+    background-color: white;
+}
+
+.navbar-toggler i{
+ 
+    color: white;
+}
+
+
+/* -------- Underline ------------- */
+.title{
+    margin-top: 50px;
+}
+
+.title::before{
+    content: '';
+    background: rgb(255, 196, 0);
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after{
+    content: '';
+    background: rgb(255, 196, 0);
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+
+
+
+
+
+

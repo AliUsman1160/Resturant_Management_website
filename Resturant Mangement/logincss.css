@@ -1,0 +1,46 @@
+*{
+    padding: 0px 0px;
+    padding-bottom: 1px;
+    margin: 0px;
+}
+
+body{  
+    
+   /* background-color: lightgray; */
+   background-image: linear-gradient(rgba(15, 23, 43,0.9),rgba(15, 23, 43,0.9)), url(img/bg-hero.jpg);    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 120%;
+   
+}
+
+img{
+    border-radius: 50px 0px;
+}
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    padding-left: 20px;
+}
+
+.row{
+    
+    /* background-image: linear-gradient(rgba(15, 23, 43,0.9),rgba(15, 23, 43,0.9)), url(img/bg-hero.jpg); */
+    background-image: linear-gradient(rgb(9, 58, 74),rgb(64, 64, 64));
+    border-radius: 150px 0px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px #151515;
+
+
+}
+
+
+#login-btn{
+   padding: 5px 80px;
+}
+
+#signup-btn{
+    padding: 5px 72px;
+
+}

@@ -1,0 +1,338 @@
+.Full-cotain{
+    background-image: linear-gradient(rgba(15, 23, 43,0.9),rgba(15, 23, 43,0.9)), url(img/bg-hero.jpg);
+}
+
+#Heading{
+    margin-top:150px;
+    color: white;
+    margin-left: 100px;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+#Para{
+    margin-left: 100px; 
+    margin-top: 20px;
+    color: white;
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+#booktable{
+    background-color: rgb(255, 170, 24);
+    border-radius: 20px;
+    
+}
+
+#booktable:hover{
+   
+    border-radius: 10px;
+    
+}
+
+#booktable a{
+    color: rgb(0, 0, 0);
+}
+
+#baner-btn{
+    margin-left: 100px;
+    border: 1px solid rgb(248, 191, 3);
+    background-color: rgb(255, 191, 0);
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    animation-name: example1;
+    animation-duration: 2s;
+}
+
+@keyframes example {
+    from { margin-left:0px;}
+    to { margin-left:100px;}
+  }
+
+  @keyframes example1 {
+    from {  margin-top: 40px;}
+    to {  margin-top: 10px;}
+  }
+
+
+  /* ------------ img ---------------- */
+
+.Full-cotain img {
+   width: 80%;
+    animation: imgrotate 50s linear infinite;
+}
+
+@keyframes imgrotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/* ------------------ About Us --------------------- */
+
+#About-para{
+    padding-top: 10px;
+}
+
+#About-Button{
+    background-color: rgb(255, 196, 0);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: all;
+}
+
+
+#About-Button:hover {
+
+    width: 150px;
+    box-shadow: 0px 5px 5px black;
+    /* padding: 0px;
+    background-color: rgb(243, 225, 61);
+    color: rgb(0, 0, 0); */
+  }
+#About-img img{
+    border-radius: 0px;
+}
+
+
+/* ---------- Services ----------------- */
+
+
+.text-primary {
+   
+    color: rgba(45, 45, 45, 0.943) !important;
+}
+
+.card {
+    background-color: rgb(255, 178, 36);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+.card:hover{
+    background-image: linear-gradient(rgba(15, 23, 43, 0.803),rgba(15, 23, 43, 0.803)), url(img/menu-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+
+
+
+ #Services .card:hover .text-primary{
+    color: rgb(255, 206, 46) !important;
+} 
+
+
+
+/* ------------- menu ------------------ */
+
+#price{
+    color: rgb(255, 178, 36);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* #menu .col-md-5{
+    padding: 10px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: linear-gradient(rgba(15, 23, 43,0.9),rgba(15, 23, 43,0.9)), url(img/bg-hero.jpg);
+    transition-property: all;
+    
+} */
+
+
+#menu .col-md-6{
+    margin: 10px 0px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50px 10px;
+    background-image: linear-gradient(rgba(15, 23, 43,0.9),rgba(15, 23, 43,0.9)), url(img/bg-hero.jpg);
+    transition-property: all;
+}
+
+#menu-cont{
+    background-color: rgb(233, 232, 232);
+}
+
+
+#menu .col-xl-5:hover{
+    margin: 5px 45px;
+    padding: 10px;
+    box-shadow: 0px 5px 5px black;
+    cursor: pointer; 
+}
+
+#menu .col-md-6:hover #menu-img{
+
+    height: 70px;
+    cursor: pointer;
+}
+
+/* ----------- Our Team ------------------- */
+
+.team-item{
+    background-color: rgb(234, 234, 234);
+    border-radius: 50px;
+    height: calc(100% - 38px);
+    transition: 0.5s;
+   
+}
+
+.team-item:hover{
+    height: 100%;
+    cursor: pointer;
+}
+
+.team-item .btn-primary{
+    background-color: rgb(255, 178, 36);
+    border: 1px solid transparent;
+    margin: 0px 5px;
+    border-radius: 38px 38px 0 0;
+}
+
+
+
+.team-item img{
+    transition: 0.5s;
+}
+
+.team-item img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+/* ------------------carousel---------------- */
+
+.carousel-item #carousel-back-img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.carousel-caption img{
+    height:100px; 
+    width:100px; 
+    color: rgb(247, 191, 86);
+    border-radius:50px;
+}
+
+#comment-name-1{
+    color: rgb(255, 178, 36);
+}
+
+
+#comment{
+    color: rgb(226, 248, 255);
+}
+
+
+/* --------------------Table-------------------------- */
+
+.table-data{
+    background-image: linear-gradient(rgba(15, 23, 43,0.9),rgba(15, 23, 43,0.9)), url(img/bg-hero.jpg);
+}
+
+.table-data .col-sm-6 {
+    padding-top: 25px;
+}
+
+.table-data .col-sm-12 {
+    padding-top: 25px;
+}
+
+.table-data .col-sm-6 label{
+    font-size: 20px;
+    color: rgb(255, 166, 0);
+    font-weight: 600;
+}
+
+#label{
+    font-size: 20px;
+    color: rgb(255, 166, 0);
+    font-weight: 600;
+}
+
+.table-data .col-sm-3{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.d-grid .btn{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+   background-image: linear-gradient( rgb(255, 119, 0),rgb(202, 101, 0)), url(img/menu-4.jpg);;
+}
+
+
+
+
+/* -------------------- Scial links --------------- */
+
+#social-links .container{
+   /* opacity: 1;
+    border-radius: 30px; */
+    
+}
+.soical-icon a img{
+    width: 40px;
+    transition:0.5s;
+}
+
+#s-icons{
+    width: 40px;
+}
+
+.soical-icon a img{
+    width : 10px;
+}
+
+.soical-icon a:hover img{
+    transform: translateY(-10px);
+}
+
+
+
+
+/* ------footer--------------------- */
+#footer{
+    background-image: linear-gradient(rgba(15, 23, 43,0.9),rgba(15, 23, 43,0.9)), url(img/bg-hero.jpg);
+    color: white;
+}
+
+#footer img{
+    width: 100%;
+}
+
+#footer-box img{
+    width: 120px;
+}
+
+#icon-color{
+    color: rgb(255, 170, 24);
+}
+
+#text-box{
+    border-radius: 20px;
+    
+}
+
+
